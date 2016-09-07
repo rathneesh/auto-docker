@@ -1,5 +1,5 @@
 FROM fedora
-MAINTAINER http://fedoraproject.org/wiki/Cloud
+MAINTAINER rathneesh.t-m@hpe.com
 
 RUN dnf -y update && dnf clean all
 RUN dnf -y install nginx && dnf clean all
