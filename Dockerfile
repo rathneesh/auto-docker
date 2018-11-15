@@ -1,5 +1,5 @@
 FROM fedora
-MAINTAINER rathneesh.t-m@hpe.com
+MAINTAINER rathneesh@gmail.com
 
 RUN dnf -y update && dnf clean all
 RUN dnf -y install nginx && dnf clean all
